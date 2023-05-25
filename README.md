@@ -32,8 +32,7 @@ A small library for working with the Redmine Rest Api
       iss.assignedTo.id = assignet_to.id.toInt();
       iss.assignedTo.name = assignet_to.fio;
 
-      QString subject = QString("%1 Индивидуальный план работ на %2").arg(assignet_to.fio)
-              .arg(curr_vers->year + "." + curr_vers->month);
+      QString subject = QString("Задача");;
 
       iss.subject = subject;
 
